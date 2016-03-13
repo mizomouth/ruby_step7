@@ -25,7 +25,7 @@ class Shelf
         return [book,rental]
       end
     end
-    return puts "指定の図書IDの図書は存在しないか貸し出されています"
+    return puts "まだ起きない"
   end
 
   def return_book(book,rental)
