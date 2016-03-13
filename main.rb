@@ -14,7 +14,7 @@ member = Member.new('1', 'ドヤオタクロウ')
 
 #本が存在するか問い合わせる
 if !shelf.is_exist_book?('4')
-  puts '隣の席が謎すぐるwwwwww'
+  puts '先輩側は俺たちより年上？'
 end
 
 shelf.rental_book('9', member.member_id)
